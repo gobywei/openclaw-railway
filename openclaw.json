@@ -1,0 +1,18 @@
+{
+  "models": {
+    "providers": {
+      "gemini": {
+        "api": "openai",
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "apiKey": "${GOOGLE_API_KEY}"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "gemini/gemini-1.5-flash"
+      }
+    }
+  }
+}
